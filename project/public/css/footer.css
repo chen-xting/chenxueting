@@ -1,0 +1,80 @@
+#footer{
+  width:100%;
+  background:#242424;
+}
+#footer .footer_box{
+  width:1000px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+/* 底部的左边 */
+.footer_box .footer_lf{
+  height:100px;
+  line-height: 100px;
+  padding-right: 10px;
+  border-right:1px solid #666;
+  float: left;
+
+}
+.footer_lf ul li{
+  float: left;
+  margin-right: 60px;
+}
+.footer_lf ul li>a{
+  font-size:14px;
+  color:#fff;
+}
+/* 底部的右边 */
+.footer_box .footer_rt{
+  height:100px;
+  background: url(../img/footer/telimg.png) no-repeat 0 center;
+  float: right;
+  padding-left: 100px;
+
+}
+.footer_rt p{
+  font-size:12px;
+  color: #666;
+}
+.footer_rt p span{
+  font-size:16px;
+  font-weight: bold;
+  color:#fff;
+  display: inline-block;
+  margin-left: 10px;
+}
+.link a{
+  font-size:12px;
+  color:#ddd;
+}
+/* 版权 */
+.copy{
+  width:100%;
+  background: #333;;
+}
+.copy .copy_in{
+  width: 1000px;
+    font-size: 14px;
+    color: #666;
+    line-height: 40px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+/* 左边 */
+.copy_in .copy_lf{
+  float: left;
+}
+.copy_lf span{
+  padding-right: 24px;
+}
+.my_color a{
+  color:#666;
+}
+/* 右边 */
+.copy_in .copy_rt{
+  float: right;
+}
+.copy_rt ul li{
+  float: left;
+  padding-left: 20px;
+}

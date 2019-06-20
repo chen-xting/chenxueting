@@ -1,0 +1,53 @@
+.big_img{
+  position: relative;
+  background: url(../img/wsyd/bg1.jpg) center center no-repeat;
+  height: 560px;
+}
+
+.login_box {
+    height: 280px;
+    position: absolute;
+    left: 50%;
+    top: 80px;
+    margin-left: 160px;
+    width: 298px;
+    padding: 15px 20px 10px;
+    border: 1px #fff solid;
+    border-top: 2px #c00000 solid;
+    background: url(../img/wsyd/tmbg1.png) repeat;
+}
+.login_input{
+  margin-top: 15px;
+  padding-left: 40px;
+  position: relative;
+} 
+.login_input em{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  
+}
+.login_input em.icon1 {
+  background: #979797 url(../img/wsyd/login_one.png) 0 0 no-repeat;
+}
+.login_input input{
+  height: 38px;
+  line-height: 38px;
+  width: 200px;
+  background: #FFFFFF;
+  padding-left: 6px;
+  border: 1px #dedfe9 solid;
+  font-size: 14px; 
+}
+.login_box .login_input em.icon2 {
+  background: #979797 url(../img/wsyd/login_one.png) 0 -55px no-repeat;
+}
+.login_input em.icon3 {
+  background: #979797 url(../img/wsyd/login_one.png) 0 -110px no-repeat;
+}
+.in_width{
+  width:240px;
+}

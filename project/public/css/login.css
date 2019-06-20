@@ -1,0 +1,61 @@
+.login_img{
+  height:871px;
+  background: url(../img/login/login.jpg) center top;
+  
+}
+.w998{
+  width:998px;
+  height: 551px;
+  margin:0 auto;
+  background:transparent;
+  position: relative;
+  top:100px;
+}
+.login_lf{
+  width:50%;
+  height: 100%;
+  float: left;
+  background: #fff;
+}
+.login_lf h2{
+  color: #c00000;
+}
+.login_lf p{
+  display: inline-block;
+}
+.mt-5{
+  padding-top:10px !important;
+}
+
+.login_rt{
+  width:50%;
+  height:100%;
+  float:right;
+  background:url(../img/wsyd/tmbg1.png);
+}
+.rt_in{
+  width: 360px;
+  margin: 0px auto;
+}
+.login_title{
+  border-bottom: 2px solid #D1D1D1;
+  cursor: pointer;
+}
+.login_title span.active{
+  color:#c52626;
+  border-bottom: 4px solid #eb6139;
+  padding-bottom:8px;
+  border-color: #c00000;
+}
+/* .left{
+  float: left;
+}
+.right{
+  float:right;
+} */
+.input_width {
+  width:360px;
+}
+buttom{
+  width:360px;
+}

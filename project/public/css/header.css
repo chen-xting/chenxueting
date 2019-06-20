@@ -1,0 +1,100 @@
+#head{
+  width:100%;
+  position: relative;
+  border-bottom: 1px solid #f0f0f0; 
+
+}
+.head_in{
+  width:1000px;
+  height:36px;
+  margin:0 auto;
+
+}
+.head_lf{
+  float: left;
+}
+.head_rt{
+  float: right;
+}
+
+.head_in .head_lf ul li{
+  list-style: none;
+  float: left;
+  margin-top:7px;
+
+}
+.tel a{
+  height:22px;
+  background: url(../img/index/smallIcon.png) -121px -3px no-repeat;
+  padding-left:25px;
+  text-decoration: none;
+}
+.weichat a{
+  height:22px;
+  line-height: 22px;
+  background: url(../img/index/smallIcon.png) -1px -1px no-repeat;
+  padding-left:22px;
+  margin-left:27px;
+  position: relative;
+  display: inline-block;
+}
+.weibo a{
+  height:22px;
+  line-height: 22px;
+  background: url(../img/index/smallIcon.png) -25px -1px no-repeat;
+  padding-left: 22px;
+  margin-left: 11px;
+  display: inline-block;
+}
+.head_rt ul li{
+  list-style: none;
+  float:right;
+} 
+
+/* .login img a::before{
+ content: "|";
+} */
+.nav{
+  width:100%;
+  border-bottom: 2px solid #F7F6F6;
+  position: relative;
+  
+}
+.nav .nav_box{
+  width:1000px;
+  height:80px;
+  margin:0 auto;
+}
+.nav .nav_box .logo{
+  padding: 17px 0 16px 0;
+  float: left;
+}
+.nav .nav_box .nav_in{
+  /* width:532px; */
+  /* height:80px; */
+  float: right;
+}
+.nav_in ul li{
+  list-style: none;
+  float: left;
+  height: 76px;
+  line-height: 76px;
+  padding: 0 4px;
+  margin-left: 30px;
+  font-size: 18px;
+}
+.nav_in ul li.current a {
+  color: #c52626;
+}
+/* .one{
+  border-bottom:4px solid #c52626;
+} */
+.nav_in ul li:hover{border-bottom: 4px solid #c00000;}
+.nav_in ul li:hover a{color:#c52626;}
+.nav_in ul li a,.head_rt ul li a,.head_lf ul li a{
+  color:#394a5a;
+  text-decoration: none;
+}
+.head_rt ul li a:hover,.nav_in ul li a:hover{
+  color: #f00;
+}

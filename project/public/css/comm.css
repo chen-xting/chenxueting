@@ -1,0 +1,35 @@
+/*css reset*/
+*{margin:0;padding:0;}
+body{background:#fff;}
+/*通用的字号*/
+.my_small{font-size:0.8rem;}
+ul, li, ol, dd, dt, dl, p, label, div, table, th, td, tr, h1, h2, h3, h4, h5, h6, h7, hr, input, frame, iframe, form, select, img{
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* a{
+  font-size: 18px;
+  color: #394a5a;
+  text-decoration: none;
+} */
+a:hover{
+  text-decoration: none;
+}
+.left{
+  float: left;
+}
+.right{
+  float:right;
+}
+/*手写媒体查询，控制iframe的宽高*/
+.my_header,.my_footer{width:100%}
+@media screen and (min-width: 992px) {
+    .my_header{height:7.5rem;}
+    .my_footer{height:16rem;}
+}
+@media screen and (max-width: 991px) {
+    .my_header{height:7.5rem;}
+    .my_footer{height:30rem;}
+}

@@ -1,0 +1,26 @@
+.spel{
+  width: 970px;
+  margin: 0 auto 50px;
+  padding: 114px 0;
+  position: relative;
+}
+.spel_rt {
+  padding-left: 0;
+  margin: 0 auto;
+}
+.spel_rt .ewm{
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+  margin-bottom: 10px
+}
+img{
+  display: inline-block;
+}
+.spel_rt img{
+  margin-bottom: 22px;
+}
+.ewm img{
+  margin-bottom: 6px;
+}
